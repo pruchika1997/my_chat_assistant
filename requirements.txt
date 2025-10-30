@@ -1,0 +1,21 @@
+# =========================
+# Personal Chat Assistant (Nova)
+# LLM-powered assistant using LangChain + Ollama + Streamlit
+# =========================
+
+# --- Core LangChain libraries ---
+langchain>=1.0.3
+langchain-core>=1.0.2
+langchain-community>=0.4.1
+langchain-ollama>=0.1.0
+
+# --- Local LLM backend ---
+ollama>=0.1.7
+
+# --- Utilities and config ---
+pydantic>=2.8.2
+pyyaml>=6.0.2
+python-dotenv>=1.0.1
+
+# --- Web UI (frontend) ---
+streamlit>=1.38.0
